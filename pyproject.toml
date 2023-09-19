@@ -1,0 +1,21 @@
+# [build-system]
+# requires = [""]
+
+[tool.setuptools]
+packages = ["invariance"]
+
+[project]
+name = "invariance"
+version = "0.0.1"
+dependencies = [
+    "numpy",
+    "scipy",
+    "tqdm",
+    "shapely",
+    "matplotlib",
+    "tabulate",
+    "sympy",
+    "torch==1.13.1",
+    "gurobipy",
+    "gurobi-machinelearning"
+]
